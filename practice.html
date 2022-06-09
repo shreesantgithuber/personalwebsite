@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css practice</title>
+	<style type="text/css">
+		.container{
+			height: 100vh;
+			width: 100vw;
+			background-color: red;
+			position: relative;
+		}
+
+		#box{
+			height: 30vh;
+			width: 30vw;
+			background-color: blue;
+			margin: auto;
+			position: absolute;
+			top: 300px;
+			margin-left: 350px;
+			/*transform: translate(30px, 67px);
+			transform: rotatey(45deg);
+			transform-origin: 0;
+			transform: skewy(50deg);
+*/
+			/*transition-property: height;
+			transition-duration: 3s;
+			transition-delay: 2s;
+			transition-timing-function: ease-in;
+*/
+
+			/*animation-name: shreesant;
+			animation-duration: 3s;
+			animation-delay: 2s;
+			animation-timing-function: ease-in;
+			animation-iteration-count: 3;
+			animation-direction: reverse;*/
+
+		}
+
+		/*.box:hover{
+			height: 67px;
+		}*/
+
+		/*@keyframes shreesant{
+			from{
+				height: 30vh;
+
+			}
+			to{
+				height: 67px;
+			}
+		}*/
+         
+
+        .info{
+        	height: 30vh;
+        	width: 30vw;
+        	background-color: greenyellow;
+        	animation-name: animate;
+        	animation-duration: 2s;
+        	animation-delay: 2s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: 5;
+        }
+
+        @keyframes animate{
+        	0%{
+
+        		transform: rotate(45deg);
+        		
+
+        	}
+
+        	50%{
+
+        		transform: rotate(160deg);
+        		
+        	}
+
+        	100%{
+
+        		transform: rotate(360deg);
+        		
+        	}
+        }
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div id="box">
+		<p>it is a box</p>
+		<button id="btn">Click here</button>
+		
+	</div>
+
+	<div class="info">
+		<marquee><p>codewithshreesant</p></marquee>
+		<marquee><p>learningcoding</p></marquee>
+		<marquee><p>developer</p></marquee>
+	</div>
+</div>
+
+</body>
+
+<!-- <script>
+	btn.addEventListener('click', function(){
+		document.getElementById('box').style.height='67px';
+		console.log('the button is clicked')
+		document.getElementById('box').innerHTML="not working";
+
+	})
+</script> -->
+</html>

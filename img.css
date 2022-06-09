@@ -1,0 +1,18 @@
+.transform img{
+	/*transform: translate(100px,200px) /*rotatex(55deg)*/ rotatey(35deg);*/
+	/*transform: scaleX(3);
+	transform: scaleY(2);
+	transform-origin: 0;
+	transform: skew(0deg, 12deg);*/
+}
+#myimg{
+	width: 600px;
+	transition-property: width;
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+	transition-delay: 2s;
+}
+
+/*img:hover{
+	width: 100px;
+}*/

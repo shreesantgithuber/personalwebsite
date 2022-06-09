@@ -1,0 +1,369 @@
+.*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 250vh;
+	width: 100vw;
+	background-image: url('flower.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.navbar{
+	display: flex;
+	height: 20vh;
+	position: sticky;
+	top: 0;
+
+}
+
+.logo{
+	/*height: 25vh;*/
+	width: 30vw;
+	display: flex;
+	padding: 15px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.logo h3{
+	padding-left: 55px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 17px;
+}
+
+.menu{
+	/*height: 25vh;*/
+	width: 70vw;
+	background-color: lightgrey;
+
+}
+
+.menu ul{
+	display: flex;
+	text-align: center;
+}
+
+.menu ul li{
+	padding: 45px;
+	list-style: none;
+	font-size: 25px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+}
+
+.cont{
+	height: 50vh;
+	width: 60vw;
+	margin:88px 85px 8px 400px;
+	/*background-color: blue;*/
+	display: flex;
+
+}
+
+.intro{
+	width: 40vw;
+	margin-top: 140px;
+
+}
+
+.image{
+	margin:100px 0px 0px 70px;
+	/*border: 2px dashed green;*/
+	/*border-radius: 100px;*/
+}
+
+.wel{
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+
+}
+
+.hi{
+	font-size: 29px;
+	font-weight: bold;
+	color: black;
+}
+
+.myself{
+	/*background-color: lightblue;*/
+	width: 28vw;
+	font-size: 30px;
+	margin: 0px 0px 0px 960px;
+	font-weight: bold;
+	color: red;
+}
+
+.email{
+	display: flex;
+	/*display: flex;*/
+	
+	
+	
+	/*border-radius: 32px;*/
+
+}
+
+.main{
+	height: 90vh;
+	width: 80vw;
+	background-color: rosybrown;
+	margin: auto;
+	border: 2px solid none;
+	text-align: center;
+	border: 2px solid none;
+	border-radius: 33px;
+	
+}
+
+.main h2{
+	margin-right: 700px;
+	
+}
+.info{
+	
+}
+
+#em{
+	width: 2vw;
+	padding: 10px 10px;
+	font-size: 30px;
+	/*margin-left: 299px;*/
+	background-color: lightgreen;
+	border: 2px solid none;
+	border-radius: 33px;
+}
+
+.info input{
+	padding: 20px 50px 10px 50px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+#btt{
+	padding: 18px;
+	border: 2px solid none;
+	border-radius: 13px;
+	background-color: red;
+	color: white;
+}
+.subs h2{
+	color: white;
+	font-size: 30px;
+}
+/*.basic{
+	height: 70vh;
+	width: 100vw;
+	background-color: blue;
+	text-align: center;
+	margin: auto;
+	border: 2px solid none;*/
+	/*border-radius: 32px;*/
+
+}
+
+.tu p{
+	font-size: 27px;
+	/*background-color: white;*/
+	color: black;
+	/*width: 30vw;*/
+	padding: 20px;
+}
+
+.tu{
+	font-size: 27px;
+	display: flex;
+
+}
+
+.tu img{
+	margin-right: 20px;
+}
+
+.shree{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 15px;
+}
+
+.shree p{
+	font-size: 27px;
+	/*color: black;*/
+	/*width: 30vw;*/
+}
+
+.abot{
+	/*display: flex;*/
+	/*background-color: white;*/
+	background-color: brown;
+	/*width: 120vw;*/
+	color: black;
+	border: 2px solid black;
+}
+
+.con{
+	width: 100vw;
+	background-color: blue;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#btt a{
+	color: white;
+}
+
+.kes{
+	font-size: 27px;
+	/*color: black;*/
+	/*width: 25vw;*/
+	display: flex;
+	margin-top: 20px;
+}
+
+.kes img{
+	margin-right: 20px;
+}
+
+.sun{
+	font-size: 27px;
+	/*color: black;*/
+	/*width: 25vw;*/
+	display: flex;
+	flex-direction: row-reverse;
+}
+.sun img{
+	margin-right: 40px;
+}
+
+h1{
+	position: sticky;
+	top: 0;
+	background-color: lightpink;
+	text-align: center;
+	font-size: 45px;
+}
+
+.service{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	margin-top: 122px;
+}
+
+.ser p{
+	font-size: 25px;
+	color: black;
+	width: 55vw;
+	background-color: white;
+}
+
+.ser{
+	background-color: white;
+}
+
+.serv{
+	font-size: 25px;
+	color: black;
+	width: 45vw;
+	background-color: white;
+	margin-right: 5px;
+}
+
+#inp{
+	padding: 50px 100px 12px 100px;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	right: 500px;
+	bottom: 300px;
+	left: 460px;
+	top: 240px;
+	/*background-color: blue;*/
+	color: yellow;
+
+}
+
+.more p{
+	font-size: 45px;
+	text-align: center;
+}
+
+.more{
+	width: 100vw;
+	background-color: greenyellow;
+}
+
+#tbn{
+	margin-left: 600px;
+	padding: 40px 60px 12px 60px;
+	color: blue;
+	font-size: 23px;
+	background-color: red;
+}
+
+.hj{
+	width: 100vw;
+	text-align: center;
+	font-size: 50px;
+	color: brown;
+	/*background-color: white;*/
+}
+
+#frm input{
+	padding: 12px 60px 12px 65px;
+	margin: 15px;
+}
+
+#frm label{
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+#frm{
+	height: 110vh;
+	width: 40vw;
+	background-color: white;
+	border: 2px solid none;
+	border-radius: 33px;
+	margin-left: 400px;
+}
+
+#frm h2{
+	margin: 20px;
+}
+
+#frm textarea{
+	margin: 20px;
+	padding: 25px;
+}
+
+#frm button{
+	padding: 18px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: green;
+}
+
+
+
+.hobby{
+	margin-right: 1190px;
+	/*display: flex;
+	flex-direction: column;*/
+
+}
+
+.hobby div{
+	font-size: 27px;
+	padding: 12px;
+	display: inline-block;
+}

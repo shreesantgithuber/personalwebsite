@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to my website</title>
+	<style type="text/css">
+		.image img{
+			animation-name: tushants;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			animation-delay: 2s;
+			animation-timing-function: ease-in;
+		}
+
+		@keyframes tushants{
+			from{
+				width: 230px;
+				height: 220px;
+			}
+
+			to{
+				width: 2px;
+				height: 3px;
+			}
+		}
+
+		.logo img{
+			animation-name: lgo;
+			animation-duration: 2s;
+			animation-timing-function: ease;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes lgo{
+			from{
+				transform: rotate(45deg);
+			}
+			to{
+				transform: rotate(360deg);
+			}
+		}
+
+
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="logo.png" height="50px" width="50px">
+				<h3>Tushant Adhikari</h3>
+				
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="/personalwebsite/index.html">Home</a></li>
+                    <li><a href="/personalwebsite/about.html">About</a></li>
+                    <li><a href="/personalwebsite/services.html">Services</a></li>
+                    <li><a href="/personalwebsite/contact.html">Contact</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="myself">
+			<marquee><p>My name is Tushant Adhikari.  I live in Kathmandu for Study My hobbies is playing cricket</p>
+			</marquee>
+		</div>
+
+		<div class="cont">
+			<div class="intro">
+				<div class="wel">Welcome to my personal website</div>
+				<div class="hi">HI My name is Tushant Adhikari</div>
+				
+			</div>
+
+			<div class="image">
+				<img src="tushant.jpg" height="220px" width="230px">
+			</div>
+		</div>
+
+
+		<div class="main">
+				<h2>Subscribe to my youtube channel</h2>
+		  
+			<div class="email">
+				<div class="info">
+					<label id="em">Email</label>
+					<input type="text" name="email" placeholder="Enter your email">
+				</div>
+
+				<div class="subs">
+					<button id="btt"><a href="https://www.youtube.com/channel/UCS_JNv5ZMNmH9lHWvqHS-lg">>subscribe</a></button>
+				</div>
+		    </div>
+
+		    <div>
+		    	<div class="hobby">
+		    		<div>visit my facebook page <a href="https://www.facebook.com/tushant.adhikari.35">facebok.com/tushantadhikari</a></div>
+		    		<div>visit my instagram page for follow me <a href="https://www.instagram.com/tushant947/">instagram.com/tushant</a></div>
+		    		<div>visit my youtube channel <a href="https://www.youtube.com/channel/UCS_JNv5ZMNmH9lHWvqHS-lg">fitnessguy</a><i class="fas fa-phone-alt"></i></div>
+		    		<!-- <div>fbbbb ddddddddddd</div> -->
+		    	</div>
+		    </div>
+		 
+
+		</div>
+    
+    </div>
+
+</body>
+</html>
